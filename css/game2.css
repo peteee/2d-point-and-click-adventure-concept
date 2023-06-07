@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#stage {
+    background-color: darkcyan;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    background-image: url(img/Background.png);
+    background-repeat: repeat-x;
+    background-size: 1870px;
+    background-position: bottom;
+}
+
+#guy {
+    width: 118px;
+    height: 128px;
+    z-index: 1;
+    position: absolute;
+    transition: all 1.5s ease-in;
+    transition-delay: 250ms;
+    bottom: 120px;
+}
+
+#guy p {
+    width: 118px;
+    height: 128px;
+    background-size: contain;
+    background-image: url(img/drive-1296591_1280.png);
+    background-repeat: no-repeat;
+}
+
+#box {
+    background: url(img/appliance-g97d1e77d6_640.png) no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    position: absolute;
+    /* left:calc(100% - 300px); */
+    right: 0px;
+    bottom: 100px;
+}
+#box2 {
+    background: url(img/radio-g35fdb39be_640.png) no-repeat;
+    background-size: contain;
+    width: 170px;
+    height: 200px;
+    cursor: pointer;
+    position: absolute;
+    /* left:calc(100% - 300px); */
+    right: 300px;
+    bottom: 20px;
+    background-position-y: -26px;
+}

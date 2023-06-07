@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#stage {
+    cursor: crosshair;
+    background-color: blueviolet;
+    background-image: url(img/cyberpunk-street.png);
+    background-size: 3200px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+
+#guy {
+    width: 280px;
+    height: 250px;
+
+    position: absolute;
+    z-index: 1;
+    transition: all 3.5s ease;
+    transition-delay: 250ms;
+    bottom: 60px;
+}
+
+#guy p {
+    width: 280px;
+    height: 250px;
+    background-image: url(img/skater.gif);
+    /* background-image: url(img/skating-g4ed3a0b57_1920.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box {
+    /* background: red; */
+    background-image: url(img/appliance-g97d1e77d6_640.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    position: absolute;
+    /* left:calc(100% - 300px); */
+    right: 50px;
+    bottom: 70px;
+}
+#box2 {
+    /* background: red; */
+    background-image: url(img/jukebox-ged0da993b_640.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 240px;
+    height: 270px;
+    cursor: pointer;
+    position: absolute;
+    /* left:calc(100% - 300px); */
+    right: 350px;
+    bottom: 70px;
+}
+#sound{
+    font-size: 9px;
+    width: 150px;
+    height: 35px;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+/* @media only screen and (max-width: 1024px) {
+    #stage { 
+        transform: scale(0.5);
+        width: 200%;
+        height: 200%;
+        left: -50%;
+        top: -50%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+} */
