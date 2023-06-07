@@ -10,7 +10,7 @@
     height: 100vh;
     overflow: hidden;
     position: absolute;
-    background-image: url(img/Background.png);
+    background-image: url(../img/Background.png);
     background-repeat: repeat-x;
     background-size: 1870px;
     background-position: bottom;
@@ -30,12 +30,12 @@
     width: 118px;
     height: 128px;
     background-size: contain;
-    background-image: url(img/drive-1296591_1280.png);
+    background-image: url(../img/drive-1296591_1280.png);
     background-repeat: no-repeat;
 }
 
 #box {
-    background: url(img/appliance-g97d1e77d6_640.png) no-repeat;
+    background: url(../img/appliance-g97d1e77d6_640.png) no-repeat;
     background-size: contain;
     width: 200px;
     height: 200px;
@@ -46,7 +46,7 @@
     bottom: 100px;
 }
 #box2 {
-    background: url(img/radio-g35fdb39be_640.png) no-repeat;
+    background: url(../img/radio-g35fdb39be_640.png) no-repeat;
     background-size: contain;
     width: 170px;
     height: 200px;

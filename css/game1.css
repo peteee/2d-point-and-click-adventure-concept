@@ -7,7 +7,7 @@
 #stage {
     cursor: crosshair;
     background-color: blueviolet;
-    background-image: url(img/cyberpunk-street.png);
+    background-image: url(../img/cyberpunk-street.png);
     background-size: 3200px;
     background-repeat: repeat-x;
     background-position: bottom;
@@ -31,15 +31,15 @@
 #guy p {
     width: 280px;
     height: 250px;
-    background-image: url(img/skater.gif);
-    /* background-image: url(img/skating-g4ed3a0b57_1920.png); */
+    background-image: url(../img/skater.gif);
+    /* background-image: url(../img/skating-g4ed3a0b57_1920.png); */
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #box {
     /* background: red; */
-    background-image: url(img/appliance-g97d1e77d6_640.png);
+    background-image: url(../img/appliance-g97d1e77d6_640.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 120px;
@@ -52,7 +52,7 @@
 }
 #box2 {
     /* background: red; */
-    background-image: url(img/jukebox-ged0da993b_640.png);
+    background-image: url(../img/jukebox-ged0da993b_640.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 240px;
